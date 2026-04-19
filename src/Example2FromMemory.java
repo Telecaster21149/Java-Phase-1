@@ -7,6 +7,6 @@ public class Example2FromMemory {public static void main(String[] args) {
     usApples = myApples + yourApples;
     System.out.print(", so our total is " + usApples);
     applesForEach = usApples / 2;
-    System.out.print(", with " + applesForEach + " apples each");
+    System.out.println(", with " + applesForEach + " apples each");
 }
 }
