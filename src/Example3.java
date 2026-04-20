@@ -1,7 +1,7 @@
 /*about int and double
 */
 public class Example3 {
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
         int v; // declaration of an integer variable
         double x; // declaration of a floating-point variable
         v = 10;
