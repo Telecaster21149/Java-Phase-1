@@ -12,6 +12,5 @@ public class Ladder {
                     System.out.println("the value of x is 4");
             else System.out.println("the value of of x is not between 1 and 4");
         }
-
     }
 }
