@@ -1,14 +1,14 @@
 public class SortingBooks {
     public static void main(String[] args)
-        throws java.io.IOException {
-        char A = 'A', B = 'B', C = 'C', D = 'D', E = 'E';
+            throws java.io.IOException {
+        char choice = 'A';
         System.out.println("Press: A, B, C, D or E" + "\n" +
                 "To see the book titles");
 
-        A = (char) System.in.read();
+        choice = (char) System.in.read();
 
 
-        switch (A) {
+        switch (choice) {
             case 'A':
                 System.out.println("1. Animal Farm" + "\n" +
                         "2. A Clockwork Orange");
@@ -29,6 +29,7 @@ public class SortingBooks {
                 System.out.println("1. East of Eden" + "\n" +
                         "2. Emma");
                 break;
+            default: System.out.println("This is the wrong letter");
         }
     }
 }
