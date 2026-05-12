@@ -2,7 +2,7 @@ public class SqrRoot {
     public static void main(String[] args) {
         double num, scroot, rerr;
 
-        for (num = 0; num < 100; num++) {
+        for (num = 1; num < 100; num++) {
             scroot = Math.sqrt(num);
             System.out.println("The square root of " + num + " = " + scroot);
 
